@@ -12,6 +12,8 @@ This project analyzes the sentiment of airline customers from Twitter comment da
 * Goal ?
 * Results Summary ?
 
+data preparation: ?
+
 * **Dataset**: 14,640 tweets
 * **Target**: `airline_sentiment`
 * **Main Tools**: Python, pandas, scikit-learn, TextBlob
