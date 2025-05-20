@@ -12,3 +12,5 @@ This project analyzes the sentiment of airline customers from Twitter comment da
 ## 📊 Exploratory Data Analysis
 
 <img width="464" alt="Image" src="https://github.com/user-attachments/assets/29a356ce-0ed8-450c-8fbc-158c84950309" />
+
+<img width="461" alt="Image" src="https://github.com/user-attachments/assets/023891d3-7872-4145-a5a1-e1608d093a97" />
