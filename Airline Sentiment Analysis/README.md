@@ -15,11 +15,10 @@
 ## 📌 Overview
 
 This project analyzes the sentiment of airline customers from Twitter comment data using machine learning models.  
-The main goal is to classify customer tweets into **positive**, **neutral**, or **negative** sentiment based on their content.
 
 - **Problem Statement**:  
   Airline companies frequently receive customer feedback on platforms like Twitter.  
-  These tweets reflect public opinion but are unstructured and voluminous, making it difficult for companies to systematically understand and respond to them.
+  These tweets reflect public opinion but are unstructured and voluminous, making it difficult for companies to understand and respond to them systematically.
 
 - **Goal**:  
   This project aims to **build a machine learning model that can automatically classify the sentiment (positive, neutral, negative) of a tweet**, enabling better real-time monitoring of customer opinions.
@@ -47,7 +46,7 @@ The main goal is to classify customer tweets into **positive**, **neutral**, or 
 
 	* Converted time format of `tweet_created` variable into numeric `date` and `time` columns. 
 
-	* Used sentiment analysis liabrary, TextBlob, to extract `polarity` (positive or negative) and `subjectivity` (factual or opinionated) scores from tweet text.
+	* Used sentiment analysis library, TextBlob, to extract `polarity` (positive or negative) and `subjectivity` (factual or opinionated) scores from tweet text.
 
 * **Target**: `airline_sentiment`
 
@@ -85,7 +84,7 @@ The main goal is to classify customer tweets into **positive**, **neutral**, or 
 | Decision Tree       | 99.9%         | 57.7%         |
 | Random Forest       | 99.9%         | 63.2%         |
 
-* After hyerparmater tuning:
+* After hyperparameter tuning:
 
 | Model               | Train Accuracy | Test Accuracy |
 |---------------------|----------------|---------------|
@@ -143,7 +142,15 @@ Random Forest’s top features:
 
 ## 📁 Project Structure 
 
-<pre><code>``` airline-sentiment-analysis/ ├── data/ # Dataset (Tweets.csv) ├── notebooks/ # Jupyter notebook for EDA & modeling ├── results/ # Visualizations (charts, screenshots) ├── docs/ # Presentation & appendix files ├── misc/ # R project or others └── README.md # Project summary ``` </code></pre>
+<pre><code>
+airline-sentiment-analysis/
+├── data/         # Dataset (Tweets.csv)
+├── notebooks/    # Jupyter notebook for EDA & modeling
+├── results/      # Visualizations (charts, screenshots)
+├── docs/         # Presentation & appendix files
+├── misc/         # R project or others
+└── README.md     # Project summary
+</code></pre>
 
 ## 🙋‍♀️ Author 
 
