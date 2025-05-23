@@ -133,20 +133,20 @@ Random Forest’s top features:
 
 ## 📁 Project Structure 
 
-(수정중)
 airline-sentiment-analysis/
-├── data/ # Cleaned dataset
-├── notebooks/ # Jupyter notebooks for EDA and modeling
-├── results/ # Visuals, confusion matrix, reports
-├── README.md # Project summary
+├── data/ # Dataset (Tweets.csv)
+├── notebooks/ # Jupyter notebook for EDA & modeling
+├── results/ # Visualizations (charts, screenshots)
+├── docs/ # Presentation & appendix files
+├── misc/ # R project or others
+└── README.md # Project summary
 
 
 ## 🙋‍♀️ Author 
 
-(수정중)
-- Email: yunakim@email.com
-- LinkedIn: yunakim@email.com
-- GitHub: [github.com/yourusername](https://github.com/yourusername)  
+- Email: kyuna219@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/yuna-kim-/](https://www.linkedin.com/in/yuna-kim-/)
+- GitHub: [github.com/datawithyuna](https://github.com/datawithyuna)  
 - 📌 Note: The dataset was originally obtained from a course project. Some inconsistencies or limitations may exist.
 
   
