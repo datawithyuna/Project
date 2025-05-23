@@ -14,15 +14,25 @@
 
 ## 📌 Overview
 
-This project analyzes the sentiment of airline customers from Twitter comment data using machine learning models. The main goal is to classify customer tweets into **positive**, **neutral**, or **negative** sentiment based on their content. 
+This project analyzes the sentiment of airline customers from Twitter comment data using machine learning models.  
+The main goal is to classify customer tweets into **positive**, **neutral**, or **negative** sentiment based on their content.
 
-* Problem Statement: Airline companies frequently receive customer feedback on platforms like Twitter. These tweets reflect public opinion but are unstructured and voluminous, making it difficult for companies to systematically understand and respond to them.
+- **Problem Statement**:  
+  Airline companies frequently receive customer feedback on platforms like Twitter.  
+  These tweets reflect public opinion but are unstructured and voluminous, making it difficult for companies to systematically understand and respond to them.
 
-* Goal: This project aims to **build a machine learning model that can automatically classify the sentiment (positive, neutral, negative) of a tweet**, enabling better real-time monitoring of customer opinions.
+- **Goal**:  
+  This project aims to **build a machine learning model that can automatically classify the sentiment (positive, neutral, negative) of a tweet**, enabling better real-time monitoring of customer opinions.
 
-* Main Tools: Python, pandas, scikit-learn, TextBlob
+- **Main Tools**:  
+  Python, pandas, scikit-learn, TextBlob
 
-* Results Summary ? 기간 ? :
+- **Results Summary**:  
+  The best-performing model was a Random Forest classifier (after hyperparameter tuning),  
+  achieving **67.4% test accuracy**. Negative tweets were predicted most accurately, while neutral tweets were hardest to classify.
+
+- **Project Duration**:  
+  March – April 2024 (Chapman Course Project for MGSC 410)
   
 
 ## 🧹 Data Preparation
@@ -133,14 +143,7 @@ Random Forest’s top features:
 
 ## 📁 Project Structure 
 
-airline-sentiment-analysis/
-├── data/ # Dataset (Tweets.csv)
-├── notebooks/ # Jupyter notebook for EDA & modeling
-├── results/ # Visualizations (charts, screenshots)
-├── docs/ # Presentation & appendix files
-├── misc/ # R project or others
-└── README.md # Project summary
-
+<pre><code>``` airline-sentiment-analysis/ ├── data/ # Dataset (Tweets.csv) ├── notebooks/ # Jupyter notebook for EDA & modeling ├── results/ # Visualizations (charts, screenshots) ├── docs/ # Presentation & appendix files ├── misc/ # R project or others └── README.md # Project summary ``` </code></pre>
 
 ## 🙋‍♀️ Author 
 
