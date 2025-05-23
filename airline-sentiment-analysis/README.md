@@ -57,16 +57,15 @@ This project analyzes the sentiment of airline customers from Twitter comment da
 
 * Most tweets express **negative sentiment**. 
 
-<img width="464" alt="Image" src="https://github.com/user-attachments/assets/29a356ce-0ed8-450c-8fbc-158c84950309" />
+![Exploratory Analysis 1](results/exploratory-analysis-1.png)
 
 * **United Airlines** has the most negative tweets.
 
-<img width="471" alt="Image" src="https://github.com/user-attachments/assets/c8543b6c-36f9-4c37-81fc-de9c173db680" />
+![Exploratory Analysis 2](results/exploratory-analysis-2.png)
 
 * Most common complaint: **poor customer service**.
 
-<img width="406" alt="Image" src="https://github.com/user-attachments/assets/ed6d9e46-126e-4a47-b026-f0fe3bc518c5" />
-
+![Exploratory Analysis 3](results/exploratory-analysis-3.png)
 
 ## 🤖 Modeling
 
@@ -101,11 +100,11 @@ This project analyzes the sentiment of airline customers from Twitter comment da
 
 - **Negative tweets** were easiest to classify.
 
-<img width="685" alt="Image" src="https://github.com/user-attachments/assets/c616f418-5bf5-4b58-9da2-6fe3bb9ab8af" />
+![Confusion Metrics](results/confusion-metrics.png)
 
 - **Neutral tweets** had the lowest precision/recall, likely due to class imbalance.
 
-<img width="510" alt="Image" src="https://github.com/user-attachments/assets/a8373d95-81cf-477c-8b8e-310a7e11711d" />
+![Classification Metrics](results/classification-metrics.png)
 
 
 ## 🔍 Feature Importance
@@ -115,7 +114,7 @@ Random Forest’s top features:
 2. **Time of tweet**
 3. **Subjectivity**
 
-<img width="432" alt="Image" src="https://github.com/user-attachments/assets/e7448a91-5e49-4e2a-8cdf-0438e4fd237f" />
+![Feature Importance](results/feature-importance.png)
 
 
 ## ✅ Results Summary
