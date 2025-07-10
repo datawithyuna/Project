@@ -11,6 +11,7 @@
 8. [💡 Future Improvements](#-future-improvements)
 9. [📁 Project Structure](#-project-structure)
 10. [🙋‍♀️ Author](#-author)
+11. [🖼️ Power BI Dashboard](#-power-bi-dashboard)
 
 ## 📌 Overview
 
@@ -155,7 +156,8 @@ airline-sentiment-analysis/
 
 - Email: kyuna219@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/yuna-kim-/](https://www.linkedin.com/in/yuna-kim-/)
-- GitHub: [github.com/datawithyuna](https://github.com/datawithyuna)  
+- GitHub: [github.com/datawithyuna](https://github.com/datawithyuna)
 - 📌 Note: The dataset was originally obtained from a course project. Some inconsistencies or limitations may exist.
 
-  
+## 🖼️ Power BI Dashboard
+- PowerBI: [https://app.powerbi.com/view?r=eyJrIjoiYmVlOWI4NjgtNjM4Zi00ZDkwLWE3ZmEtNDRiYThiZTA3OTUwIiwidCI6IjgwOTkyOWFmLTJkMjUtNDViZi05ODM3LTA4OWViOWNmYmQwMSIsImMiOjZ9]
